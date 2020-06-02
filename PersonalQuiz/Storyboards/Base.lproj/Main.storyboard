@@ -323,6 +323,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="barbuttom" destination="nDg-Ri-F3W" id="d4k-5u-wDX"/>
                         <outlet property="descriptionsAnimalLabel" destination="WdB-qX-vzv" id="BmO-x8-eP5"/>
                         <outlet property="youAnimalLabel" destination="inx-YJ-A0i" id="4Cq-5q-0FS"/>
                     </connections>

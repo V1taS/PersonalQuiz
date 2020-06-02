@@ -17,14 +17,25 @@ class ResultsViewController: UIViewController {
     
     @IBOutlet weak var youAnimalLabel: UILabel!
     @IBOutlet weak var descriptionsAnimalLabel: UILabel!
+    @IBOutlet weak var barbuttom: UINavigationItem!
     
     var answers: [Answer]!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        barbuttom.leftBarButtonItem?.tintColor = .green
+        
+        var cat = 0
+        var dog = 0
+        var rabbit = 0
+        var turtle = 0
+        
         for animal in answers {
-            animal.type
+            if animal.type == .cat { cat += 1 }
+            if animal.type == .dog { dog += 1 }
+            if animal.type == .rabbit { rabbit += 1 }
+            if animal.type == .turtle { turtle += 1 }
             print(animal.type)
         }
         
