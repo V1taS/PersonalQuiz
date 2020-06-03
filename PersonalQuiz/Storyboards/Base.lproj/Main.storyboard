@@ -316,6 +316,7 @@
                         <viewLayoutGuide key="safeArea" id="GQM-Zh-Ok0"/>
                     </view>
                     <navigationItem key="navigationItem" title="Результаты" id="nDg-Ri-F3W">
+                        <barButtonItem key="backBarButtonItem" title=" " id="qDn-MN-4rx"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="I5v-sC-MKw">
                             <connections>
                                 <segue destination="MQX-nN-Ib9" kind="unwind" unwindAction="unwindFor:" id="oGu-VU-8wb"/>
